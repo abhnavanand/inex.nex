@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Nex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            color: #00e6ff;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00e6ff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #00e6ff;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+            opacity: 0.9;
+        }
+
+        .hero button {
+            margin-top: 30px;
+            padding: 14px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            background: #00e6ff;
+            color: #000;
+            transition: 0.3s;
+        }
+
+        .hero button:hover {
+            background: white;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 60px 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            width: 260px;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #00e6ff;
+        }
+
+        .card p {
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.3);
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Pixel Nex</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to <span>Pixel Nex</span></h1>
+    <p>
+        Pixel Nex is a modern digital platform focused on coding, gaming,
+        and creative technology. Learn, build, and explore the future—one pixel at a time.
+    </p>
+    <button>Get Started</button>
+</section>
+
+<section class="features">
+    <div class="card">
+        <h3>Smart Learning</h3>
+        <p>Easy-to-understand coding and tech content for students and beginners.</p>
+    </div>
+
+    <div class="card">
+        <h3>Game Projects</h3>
+        <p>Explore browser-based games and interactive JavaScript projects.</p>
+    </div>
+
+    <div class="card">
+        <h3>Creative Design</h3>
+        <p>Modern UI, clean design, and futuristic web experiences.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Pixel Nex | Build • Play • Create
+</footer>
+
+</body>
+</html>
